@@ -1,0 +1,400 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="nGNTt5dbp2j50m0MkaqM">
+    <mxGraphModel dx="1149" dy="1068" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;PharmaPro - ERD&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="338" y="-18" as="geometry" />
+        </mxCell>
+        <mxCell id="lg0" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;verticalAlign=middle;" value="Modules" vertex="1">
+          <mxGeometry height="24" width="190" x="774" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="rounded=1;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Auth &amp; Users" vertex="1">
+          <mxGeometry height="28" width="190" x="774" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=1;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Catalog" vertex="1">
+          <mxGeometry height="28" width="190" x="774" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" value="Suppliers &amp; Inventory" vertex="1">
+          <mxGeometry height="28" width="190" x="774" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="lg4" parent="1" style="rounded=1;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Sales" vertex="1">
+          <mxGeometry height="28" width="190" x="774" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="lg5" parent="1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;verticalAlign=top;" value="PK primary key, FK foreign key, UK unique&lt;br&gt;Composite unique: Batch (ProductId, BatchNumber), SaleItemBatch (SaleItemId, BatchId)" vertex="1">
+          <mxGeometry height="80" width="200" x="774" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sup" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#ffffff;" value="Supplier" vertex="1">
+          <mxGeometry height="208" width="200" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_id" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_name" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Name" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_cp" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ContactPerson" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_ph" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Phone" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_em" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Email" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_ad" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Address" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_act" parent="t_sup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="IsActive" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t_role" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#ffffff;" value="Role" vertex="1">
+          <mxGeometry height="78" width="200" x="400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="role_id" parent="t_role" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="role_name" parent="t_role" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Name" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="t_si" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#ffffff;" value="StockIn" vertex="1">
+          <mxGeometry height="182" width="200" x="40" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="si_id" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="si_sup" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK SupplierId" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="si_usr" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK ReceivedByUserId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="si_at" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ReceivedAt" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="si_ref" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ReferenceNo" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="si_nt" parent="t_si" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Notes" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="t_user" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#ffffff;" value="User" vertex="1">
+          <mxGeometry height="234" width="200" x="400" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="u_id" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u_name" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="FullName" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="u_uname" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Username" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="u_email" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Email" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="u_pw" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="PasswordHash" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u_role" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK RoleId" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="u_act" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="IsActive" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="u_cr" parent="t_user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="CreatedAt" vertex="1">
+          <mxGeometry height="26" width="200" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sale" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;" value="Sale" vertex="1">
+          <mxGeometry height="260" width="200" x="760" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_id" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_inv" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK InvoiceNo" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_usr" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK SoldByUserId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_at" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="SoldAt" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_tot" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="TotalAmount" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_st" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Status" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_vat" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="VoidedAt" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_vby" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK VoidedByUserId" vertex="1">
+          <mxGeometry height="26" width="200" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_vrs" parent="t_sale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="VoidReason" vertex="1">
+          <mxGeometry height="26" width="200" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="t_batch" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#ffffff;" value="Batch" vertex="1">
+          <mxGeometry height="234" width="200" x="40" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="b_id" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b_prod" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK ProductId" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="b_si" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK StockInId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="b_no" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="BatchNumber" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="b_exp" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ExpiryDate" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="b_qr" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="QuantityReceived" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="b_qm" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="QuantityRemaining" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="b_cost" parent="t_batch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="CostPrice" vertex="1">
+          <mxGeometry height="26" width="200" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sm" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#ffffff;" value="StockMovement" vertex="1">
+          <mxGeometry height="286" width="200" x="400" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_id" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_prod" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK ProductId" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_b" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK BatchId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_type" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="MovementType" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_q" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="QuantityChange" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_u" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK UserId" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_at" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="CreatedAt" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_rt" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ReferenceType" vertex="1">
+          <mxGeometry height="26" width="200" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_ri" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ReferenceId" vertex="1">
+          <mxGeometry height="26" width="200" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_rs" parent="t_sm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Reason" vertex="1">
+          <mxGeometry height="26" width="200" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sit" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;" value="SaleItem" vertex="1">
+          <mxGeometry height="182" width="200" x="760" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_id" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_sale" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK SaleId" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_prod" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK ProductId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_q" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Quantity" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_up" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UnitPrice" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sit_lt" parent="t_sit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="LineTotal" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sib" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;" value="SaleItemBatch" vertex="1">
+          <mxGeometry height="130" width="200" x="40" y="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="sib_id" parent="t_sib" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sib_si" parent="t_sib" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK SaleItemId" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sib_b" parent="t_sib" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK BatchId" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sib_q" parent="t_sib" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Quantity" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyhm9km0Eynb92h7gdU2-3" edge="1" parent="1" source="t_prod" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="b_qm">
+          <mxGeometry relative="1" x="-0.0011" as="geometry">
+            <Array as="points">
+              <mxPoint x="339.9" y="1154" />
+              <mxPoint x="339.9" y="869.5" />
+            </Array>
+            <mxPoint x="344.57703993055566" y="1109.7019314236113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_prod" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="Product" vertex="1">
+          <mxGeometry height="260" width="200" x="400" y="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="p_id" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p_name" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Name" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p_sku" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Sku" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p_bar" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Barcode (nullable)" vertex="1">
+          <mxGeometry height="26" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="p_price" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Price" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p_img" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ImageUrl" vertex="1">
+          <mxGeometry height="26" width="200" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="p_cat" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=2;" value="FK CategoryId" vertex="1">
+          <mxGeometry height="26" width="200" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="p_rl" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="ReorderLevel" vertex="1">
+          <mxGeometry height="26" width="200" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_act" parent="t_prod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="IsActive" vertex="1">
+          <mxGeometry height="26" width="200" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="t_cat" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=26;collapsible=0;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="Category" vertex="1">
+          <mxGeometry height="104" width="200" x="760" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="c_id" parent="t_cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;fontStyle=1;" value="PK Id" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c_name" parent="t_cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="UK Name" vertex="1">
+          <mxGeometry height="26" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="c_desc" parent="t_cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;html=1;fontSize=14;" value="Description" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="role_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="u_role">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="229" />
+              <mxPoint x="616" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="c_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="p_cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="sp_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;" target="si_sup">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="301.3" y="99" />
+              <mxPoint x="301.3" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="u_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="si_usr">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="377" />
+              <mxPoint x="320" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="u_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;" target="sm_u">
+          <mxGeometry relative="1" x="-0.0196" as="geometry">
+            <Array as="points">
+              <mxPoint x="638.6" y="388.1" />
+              <mxPoint x="638.6" y="837" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="u_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="sa_usr">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="687" y="368" />
+              <mxPoint x="687" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="si_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERoneToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="b_si">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="377" />
+              <mxPoint x="270" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="p_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;" target="sm_prod">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="622.6" y="1063" />
+              <mxPoint x="622.6" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="p_bar" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="sit_prod">
+          <mxGeometry relative="1" x="0.1559" as="geometry">
+            <Array as="points">
+              <mxPoint x="703.3" y="1147.5" />
+              <mxPoint x="703.3" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="sa_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERoneToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;" target="sit_sale">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="996.7" y="377" />
+              <mxPoint x="996.7" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="sit_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERoneToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="sib_si">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="707" />
+              <mxPoint x="680" y="1002" />
+              <mxPoint x="306" y="1002" />
+              <mxPoint x="306" y="1089" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="b_id" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="sib_b">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="24" y="707" />
+              <mxPoint x="24" y="1115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERzeroToOne;endArrow=ERzeroToMany;startFill=0;endFill=0;dashed=1;labelBackgroundColor=default;defaultLabelBackgroundColor=page;rounded=0;orthogonalLoop=1;jettySize=auto;">
+          <mxGeometry relative="1" x="-0.0151" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="422.3" />
+              <mxPoint x="675" y="422.3" />
+              <mxPoint x="675" y="579" />
+            </Array>
+            <mxPoint x="600" y="410" as="sourcePoint" />
+            <mxPoint x="762" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyhm9km0Eynb92h7gdU2-5" edge="1" parent="1" source="t_sm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;">
+          <mxGeometry relative="1" x="-0.0225" as="geometry">
+            <mxPoint x="243.6" y="811.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
