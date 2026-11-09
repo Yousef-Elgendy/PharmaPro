@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-12/13 Inventory and adjustment</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-73">
+<g id="div-a-72">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Products</text><text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text>
+<g id="a-on-1"><rect x="12" y="228.17" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Inventory</text></g>
+<text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-71">
+<g id="div-r-3"><text x="224" y="47" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-12/13 Inventory and adjustment</text><text x="1132.95" y="44.3" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c2-70">
+<g id="section-c-58"><rect x="224.5" y="71.3" width="676.33" height="388.97" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Stock by batch</text>
+<g id="div-r-7">
+<g id="input-i-4"><rect x="241.5" y="119.3" width="511.33" height="40.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="145.09" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#757575">Search product</text></g>
+<g id="label-6">
+<g id="select-i-5"><rect x="765.83" y="119.59" width="118" height="40" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="776.33" y="145.09" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">All</text><polyline points="864.33,137.59 868.33,141.59 872.33,137.59" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+</g>
+<g id="table-t-57">
+<g id="tbody-56">
+<g id="tr-13">
+<g id="th-8"><line x1="241" y1="209.98" x2="355.58" y2="209.98" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="196.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Product</text></g>
+<g id="th-9"><line x1="355.58" y1="209.98" x2="468.34" y2="209.98" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="196.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Batch</text></g>
+<g id="th-10"><line x1="468.34" y1="209.98" x2="565.78" y2="209.98" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="196.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Expiry</text></g>
+<g id="th-11"><line x1="565.78" y1="209.98" x2="709.95" y2="209.98" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="196.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Remaining</text></g>
+<g id="th-12"><line x1="709.95" y1="209.98" x2="884.33" y2="209.98" stroke="#d5d9dc" stroke-width="1"/><text x="717.95" y="196.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Status</text></g>
+</g>
+<g id="tr-20">
+<g id="td-14"><line x1="241" y1="248.78" x2="355.58" y2="248.78" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="235.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-15"><line x1="355.58" y1="248.78" x2="468.34" y2="248.78" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="235.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-001]</text></g>
+<g id="td-16"><line x1="468.34" y1="248.78" x2="565.78" y2="248.78" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="235.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-17"><line x1="565.78" y1="248.78" x2="709.95" y2="248.78" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="235.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-19"><line x1="709.95" y1="248.78" x2="884.33" y2="248.78" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-18"><rect x="718.45" y="220.48" width="38.67" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="728.95" y="234.98" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">OK</text></g>
+</g>
+</g>
+<g id="tr-27">
+<g id="td-21"><line x1="241" y1="287.58" x2="355.58" y2="287.58" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="273.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-22"><line x1="355.58" y1="287.58" x2="468.34" y2="287.58" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="273.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-002]</text></g>
+<g id="td-23"><line x1="468.34" y1="287.58" x2="565.78" y2="287.58" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="273.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-24"><line x1="565.78" y1="287.58" x2="709.95" y2="287.58" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="273.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-26"><line x1="709.95" y1="287.58" x2="884.33" y2="287.58" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-25"><rect x="718.45" y="259.28" width="88.31" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="728.95" y="273.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">Near expiry</text></g>
+</g>
+</g>
+<g id="tr-34">
+<g id="td-28"><line x1="241" y1="326.38" x2="355.58" y2="326.38" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="312.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-29"><line x1="355.58" y1="326.38" x2="468.34" y2="326.38" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="312.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-003]</text></g>
+<g id="td-30"><line x1="468.34" y1="326.38" x2="565.78" y2="326.38" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="312.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-31"><line x1="565.78" y1="326.38" x2="709.95" y2="326.38" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="312.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0]</text></g>
+<g id="td-33"><line x1="709.95" y1="326.38" x2="884.33" y2="326.38" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-d-32"><rect x="718.45" y="298.08" width="64.81" height="20" rx="10" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="728.95" y="312.58" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Expired</text></g>
+</g>
+</g>
+<g id="tr-41">
+<g id="td-35"><line x1="241" y1="365.17" x2="355.58" y2="365.17" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="351.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-36"><line x1="355.58" y1="365.17" x2="468.34" y2="365.17" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="351.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-001]</text></g>
+<g id="td-37"><line x1="468.34" y1="365.17" x2="565.78" y2="365.17" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="351.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-38"><line x1="565.78" y1="365.17" x2="709.95" y2="365.17" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="351.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-40"><line x1="709.95" y1="365.17" x2="884.33" y2="365.17" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-39"><rect x="718.45" y="336.88" width="38.67" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="728.95" y="351.38" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">OK</text></g>
+</g>
+</g>
+<g id="tr-48">
+<g id="td-42"><line x1="241" y1="403.97" x2="355.58" y2="403.97" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="390.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-43"><line x1="355.58" y1="403.97" x2="468.34" y2="403.97" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="390.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-002]</text></g>
+<g id="td-44"><line x1="468.34" y1="403.97" x2="565.78" y2="403.97" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="390.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-45"><line x1="565.78" y1="403.97" x2="709.95" y2="403.97" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="390.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-47"><line x1="709.95" y1="403.97" x2="884.33" y2="403.97" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-46"><rect x="718.45" y="375.67" width="88.31" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="728.95" y="390.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">Near expiry</text></g>
+</g>
+</g>
+<g id="tr-55">
+<g id="td-49"><line x1="241" y1="442.77" x2="355.58" y2="442.77" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="429.06" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-50"><line x1="355.58" y1="442.77" x2="468.34" y2="442.77" stroke="#d5d9dc" stroke-width="1"/><text x="363.58" y="429.06" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-003]</text></g>
+<g id="td-51"><line x1="468.34" y1="442.77" x2="565.78" y2="442.77" stroke="#d5d9dc" stroke-width="1"/><text x="476.34" y="429.06" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-52"><line x1="565.78" y1="442.77" x2="709.95" y2="442.77" stroke="#d5d9dc" stroke-width="1"/><text x="573.78" y="429.06" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0]</text></g>
+<g id="td-54"><line x1="709.95" y1="442.77" x2="884.33" y2="442.77" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-d-53"><rect x="718.45" y="414.47" width="64.81" height="20" rx="10" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="728.95" y="428.97" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Expired</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="section-c-69"><rect x="917.83" y="71.3" width="337.66" height="330.94" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Adjust stock</text>
+<g id="div-f-68">
+<g id="label-60"><text x="934.33" y="132.8" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Batch</text>
+<g id="select-i-59"><rect x="934.83" y="141.48" width="303.66" height="39" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="945.33" y="165.98" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#333333">[Product · Batch]</text><polyline points="1218.98,158.98 1222.98,162.98 1226.98,158.98" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+<g id="label-62"><text x="934.33" y="206.98" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Quantity change (+ / -)</text>
+<g id="input-i-61"><rect x="934.83" y="215.67" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="945.33" y="240.27" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">0</text></g>
+</g>
+<g id="label-64"><text x="934.33" y="281.36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Reason (required)</text>
+<g id="input-i-63"><rect x="934.83" y="290.05" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="div-r-67">
+<g id="button-b-65"><rect x="934.83" y="342.23" width="145.72" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1007.69" y="369.23" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Save adjustment</text></g>
+<g id="button-o-66"><rect x="1093.55" y="342.23" width="80.03" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1133.56" y="369.23" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Cancel</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

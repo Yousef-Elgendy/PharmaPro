@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-02 Dashboard</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-61">
+<g id="div-a-60">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text>
+<g id="a-on-1"><rect x="12" y="61.8" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Dashboard</text></g>
+<text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Products</text><text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-59">
+<g id="div-r-4"><text x="224" y="53.59" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-02 Dashboard</text>
+<g id="button-o-3"><rect x="1025.8" y="24.5" width="94.66" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1073.13" y="51.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">New sale</text></g>
+<text x="1132.95" y="50.91" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c4-9">
+<g id="div-c-5"><rect x="224.5" y="84.5" width="245" height="88.98" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="116" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Products</text><text x="241" y="147.59" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#222222">[ 0 ]</text></g>
+<g id="div-c-6"><rect x="486.5" y="84.5" width="245" height="88.98" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="503" y="116" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Categories</text><text x="503" y="147.59" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#222222">[ 0 ]</text></g>
+<g id="div-c-7"><rect x="748.5" y="84.5" width="245" height="88.98" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="765" y="116" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Suppliers</text><text x="765" y="147.59" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#222222">[ 0 ]</text></g>
+<g id="div-c-8"><rect x="1010.5" y="84.5" width="245" height="88.98" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="1027" y="116" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Sales today</text><text x="1027" y="147.59" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#222222">[ 0 ]</text></g>
+</g>
+<g id="div-g-c2-35">
+<g id="section-c-12"><rect x="224.5" y="190.48" width="676.33" height="232.19" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="222.98" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Total sales</text>
+<g id="div-r-s-10"><text x="241" y="251.98" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Today [0]</text><text x="311.89" y="251.98" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">This month [0]</text><text x="413.78" y="251.98" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">All time [0]</text></g>
+<g id="div-p-11"><rect x="241.5" y="256.67" width="642.33" height="149" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="530.97" y="334.77" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Sales chart</text></g>
+</g>
+<g id="section-c-34"><rect x="917.83" y="190.48" width="337.66" height="218.98" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="222.98" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Low-stock items</text>
+<g id="table-t-33">
+<g id="tbody-32">
+<g id="tr-16">
+<g id="th-13"><line x1="934.33" y1="275.58" x2="1043.44" y2="275.58" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="261.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Product</text></g>
+<g id="th-14"><line x1="1043.44" y1="275.58" x2="1129.25" y2="275.58" stroke="#d5d9dc" stroke-width="1"/><text x="1051.44" y="261.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Qty</text></g>
+<g id="th-15"><line x1="1129.25" y1="275.58" x2="1238.98" y2="275.58" stroke="#d5d9dc" stroke-width="1"/><text x="1137.25" y="261.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Reorder</text></g>
+</g>
+<g id="tr-21">
+<g id="td-17"><line x1="934.33" y1="314.38" x2="1043.44" y2="314.38" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="300.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-19"><line x1="1043.44" y1="314.38" x2="1129.25" y2="314.38" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-18"><rect x="1051.94" y="286.08" width="37.44" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="1062.44" y="300.58" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">[2]</text></g>
+</g>
+<g id="td-20"><line x1="1129.25" y1="314.38" x2="1238.98" y2="314.38" stroke="#d5d9dc" stroke-width="1"/><text x="1137.25" y="300.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[10]</text></g>
+</g>
+<g id="tr-26">
+<g id="td-22"><line x1="934.33" y1="353.17" x2="1043.44" y2="353.17" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="339.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-24"><line x1="1043.44" y1="353.17" x2="1129.25" y2="353.17" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-23"><rect x="1051.94" y="324.88" width="37.44" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="1062.44" y="339.38" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">[2]</text></g>
+</g>
+<g id="td-25"><line x1="1129.25" y1="353.17" x2="1238.98" y2="353.17" stroke="#d5d9dc" stroke-width="1"/><text x="1137.25" y="339.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[10]</text></g>
+</g>
+<g id="tr-31">
+<g id="td-27"><line x1="934.33" y1="391.97" x2="1043.44" y2="391.97" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="378.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-29"><line x1="1043.44" y1="391.97" x2="1129.25" y2="391.97" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-28"><rect x="1051.94" y="363.67" width="37.44" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="1062.44" y="378.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">[2]</text></g>
+</g>
+<g id="td-30"><line x1="1129.25" y1="391.97" x2="1238.98" y2="391.97" stroke="#d5d9dc" stroke-width="1"/><text x="1137.25" y="378.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[10]</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="section-c-58"><rect x="224.5" y="439.67" width="1031" height="180.19" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="472.17" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Near-expiry and expired batches</text>
+<g id="table-t-57">
+<g id="tbody-56">
+<g id="tr-41">
+<g id="th-36"><line x1="241" y1="524.77" x2="439.64" y2="524.77" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="511.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Batch</text></g>
+<g id="th-37"><line x1="439.64" y1="524.77" x2="641.78" y2="524.77" stroke="#d5d9dc" stroke-width="1"/><text x="447.64" y="511.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Product</text></g>
+<g id="th-38"><line x1="641.78" y1="524.77" x2="813.67" y2="524.77" stroke="#d5d9dc" stroke-width="1"/><text x="649.78" y="511.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Expiry</text></g>
+<g id="th-39"><line x1="813.67" y1="524.77" x2="931.39" y2="524.77" stroke="#d5d9dc" stroke-width="1"/><text x="821.67" y="511.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Qty</text></g>
+<g id="th-40"><line x1="931.39" y1="524.77" x2="1239" y2="524.77" stroke="#d5d9dc" stroke-width="1"/><text x="939.39" y="511.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Status</text></g>
+</g>
+<g id="tr-48">
+<g id="td-42"><line x1="241" y1="563.56" x2="439.64" y2="563.56" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="549.86" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-001]</text></g>
+<g id="td-43"><line x1="439.64" y1="563.56" x2="641.78" y2="563.56" stroke="#d5d9dc" stroke-width="1"/><text x="447.64" y="549.86" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-44"><line x1="641.78" y1="563.56" x2="813.67" y2="563.56" stroke="#d5d9dc" stroke-width="1"/><text x="649.78" y="549.86" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-45"><line x1="813.67" y1="563.56" x2="931.39" y2="563.56" stroke="#d5d9dc" stroke-width="1"/><text x="821.67" y="549.86" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-47"><line x1="931.39" y1="563.56" x2="1239" y2="563.56" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-w-46"><rect x="939.89" y="535.27" width="88.31" height="20" rx="10" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="950.39" y="549.77" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">Near expiry</text></g>
+</g>
+</g>
+<g id="tr-55">
+<g id="td-49"><line x1="241" y1="602.36" x2="439.64" y2="602.36" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="588.66" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[B-002]</text></g>
+<g id="td-50"><line x1="439.64" y1="602.36" x2="641.78" y2="602.36" stroke="#d5d9dc" stroke-width="1"/><text x="447.64" y="588.66" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Name]</text></g>
+<g id="td-51"><line x1="641.78" y1="602.36" x2="813.67" y2="602.36" stroke="#d5d9dc" stroke-width="1"/><text x="649.78" y="588.66" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-52"><line x1="813.67" y1="602.36" x2="931.39" y2="602.36" stroke="#d5d9dc" stroke-width="1"/><text x="821.67" y="588.66" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-54"><line x1="931.39" y1="602.36" x2="1239" y2="602.36" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-d-53"><rect x="939.89" y="574.06" width="64.81" height="20" rx="10" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="950.39" y="588.56" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Expired</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

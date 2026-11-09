@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-07/08 Product form and categories</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-50">
+<g id="div-a-49">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="728.23" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="728.23" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text>
+<g id="a-on-1"><rect x="12" y="103.39" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Products</text></g>
+<text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-48">
+<g id="div-r-3"><text x="224" y="47" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-07/08 Product form and categories</text><text x="1132.95" y="44.3" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c2-47">
+<g id="section-c-25"><rect x="224.5" y="71.3" width="676.33" height="632.44" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Add / edit product</text>
+<g id="div-g-e2-20">
+<g id="div-f-18">
+<g id="label-5"><text x="241" y="132.8" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Name</text>
+<g id="input-i-4"><rect x="241.5" y="141.48" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-7"><text x="241" y="207.17" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Category</text>
+<g id="select-i-6"><rect x="241.5" y="215.86" width="312.66" height="39" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="240.36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#333333">[Category]</text><polyline points="534.66,233.36 538.66,237.36 542.66,233.36" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+<g id="label-9"><text x="241" y="281.36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">SKU (unique)</text>
+<g id="input-i-8"><rect x="241.5" y="290.05" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-11"><text x="241" y="355.73" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Barcode (optional)</text>
+<g id="input-i-10"><rect x="241.5" y="364.42" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-13"><text x="241" y="430.11" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Price</text>
+<g id="input-i-12"><rect x="241.5" y="438.8" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="463.39" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">0.00</text></g>
+</g>
+<g id="label-15"><text x="241" y="504.48" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Reorder level</text>
+<g id="input-i-14"><rect x="241.5" y="513.17" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="537.77" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">0</text></g>
+</g>
+<g id="label-17"><text x="241" y="578.86" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Image URL</text>
+<g id="input-i-16"><rect x="241.5" y="587.55" width="312.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="612.14" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">https://</text></g>
+</g>
+</g>
+<g id="div-p-19"><rect x="571.16" y="119.3" width="312.67" height="259" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="686.05" y="252.39" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image preview</text></g>
+</g>
+<g id="div-r-24">
+<g id="button-b-21"><rect x="241.5" y="643.73" width="66.16" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="274.58" y="670.73" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Save</text></g>
+<g id="button-o-22"><rect x="320.66" y="643.73" width="80.03" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="360.67" y="670.73" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Cancel</text></g>
+<g id="span-k-d-23"><rect x="413.69" y="654.33" width="129.55" height="21.8" rx="10.9" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="424.19" y="668.83" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">SKU already exists</text></g>
+</g>
+</g>
+<g id="section-c-46"><rect x="917.83" y="71.3" width="337.66" height="312.97" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Categories</text>
+<g id="table-t-42">
+<g id="tbody-41">
+<g id="tr-28">
+<g id="th-26"><line x1="934.33" y1="156.39" x2="1079.91" y2="156.39" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="142.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Name</text></g>
+<g id="th-27"><line x1="1079.91" y1="156.39" x2="1238.98" y2="156.39" stroke="#d5d9dc" stroke-width="1"/><text x="1087.91" y="142.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Actions</text></g>
+</g>
+<g id="tr-31">
+<g id="td-29"><line x1="934.33" y1="194.98" x2="1079.91" y2="194.98" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="181.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Category]</text></g>
+<g id="td-30"><line x1="1079.91" y1="194.98" x2="1238.98" y2="194.98" stroke="#d5d9dc" stroke-width="1"/><text x="1087.91" y="181.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="1116.81" y="181.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="1124.8" y="181.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-34">
+<g id="td-32"><line x1="934.33" y1="233.58" x2="1079.91" y2="233.58" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="219.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Category]</text></g>
+<g id="td-33"><line x1="1079.91" y1="233.58" x2="1238.98" y2="233.58" stroke="#d5d9dc" stroke-width="1"/><text x="1087.91" y="219.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="1116.81" y="219.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="1124.8" y="219.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-37">
+<g id="td-35"><line x1="934.33" y1="272.17" x2="1079.91" y2="272.17" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="258.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Category]</text></g>
+<g id="td-36"><line x1="1079.91" y1="272.17" x2="1238.98" y2="272.17" stroke="#d5d9dc" stroke-width="1"/><text x="1087.91" y="258.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="1116.81" y="258.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="1124.8" y="258.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-40">
+<g id="td-38"><line x1="934.33" y1="310.77" x2="1079.91" y2="310.77" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="297.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Category]</text></g>
+<g id="td-39"><line x1="1079.91" y1="310.77" x2="1238.98" y2="310.77" stroke="#d5d9dc" stroke-width="1"/><text x="1087.91" y="297.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="1116.81" y="297.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="1124.8" y="297.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+</g>
+</g>
+<g id="div-r-45">
+<g id="input-i-43"><rect x="934.83" y="325.47" width="230.2" height="40.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="945.33" y="351.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#757575">New category</text></g>
+<g id="button-b-44"><rect x="1178.03" y="324.27" width="60.45" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1208.26" y="351.27" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Add</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-01 Login</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-10">
+<g id="div-9"><rect x="0" y="0" width="1280" height="720" fill="#eceff1"/>
+<g id="section-c-f-8"><rect x="450.5" y="159.23" width="379" height="401.53" rx="7.5" fill="#ffffff" stroke="#b8bfc4" stroke-width="1"/>
+<g id="div-p-1"><rect x="467.5" y="176.23" width="345" height="55" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="625.72" y="207.33" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Logo</text></g>
+<text x="467" y="266.73" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">Sign in</text>
+<g id="label-3"><text x="467" y="300.53" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Username or email</text>
+<g id="input-i-2"><rect x="467.5" y="309.22" width="345" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="478" y="333.81" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">[username]</text></g>
+</g>
+<g id="label-5"><text x="467" y="374.91" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Password</text>
+<g id="input-i-4"><rect x="467.5" y="383.59" width="345" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="478" y="408.19" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#757575">••••••••</text></g>
+</g>
+<text x="467" y="449.28" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Show / hide password toggle</text>
+<g id="span-k-d-6"><rect x="467.5" y="465.97" width="195.13" height="21.8" rx="10.9" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="478" y="480.47" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Invalid username or password</text></g>
+<g id="button-b-7"><rect x="467.5" y="500.77" width="345" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="640" y="527.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Sign in</text></g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-06 Products</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-37">
+<g id="div-a-36">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text>
+<g id="a-on-1"><rect x="12" y="103.39" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Products</text></g>
+<text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-35">
+<g id="div-r-4"><text x="224" y="53.59" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-06 Products</text>
+<g id="button-b-3"><rect x="1003.56" y="24.5" width="116.89" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1062.01" y="51.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Add product</text></g>
+<text x="1132.95" y="50.91" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-r-9">
+<g id="input-i-5"><rect x="224.5" y="85.7" width="753.88" height="40.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="235" y="111.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#757575">Search name, SKU or barcode</text></g>
+<g id="label-7">
+<g id="select-i-6"><rect x="991.38" y="86" width="132" height="40" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="1001.88" y="111.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">All categories</text><polyline points="1103.88,104 1107.88,108 1111.88,104" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+<g id="button-o-8"><rect x="1136.38" y="84.5" width="119.13" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1195.94" y="111.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Cards / table</text></g>
+</g>
+<g id="div-g-c4-34">
+<g id="div-pc-12">
+<g id="div-p-10"><rect x="224.5" y="144.5" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="316.17" y="192.59" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="224" y="255" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="224" y="279.59" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-11"><rect x="224.5" y="290.28" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="235" y="304.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+<g id="div-pc-15">
+<g id="div-p-13"><rect x="486.5" y="144.5" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="578.17" y="192.59" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="486" y="255" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="486" y="279.59" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-w-14"><rect x="486.5" y="290.28" width="245" height="21.8" rx="10.9" fill="#fff3e0" stroke="#b26a00" stroke-width="1"/><text x="497" y="304.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#7a4500">Low stock</text></g>
+</g>
+<g id="div-pc-18">
+<g id="div-p-16"><rect x="748.5" y="144.5" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="840.17" y="192.59" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="748" y="255" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="748" y="279.59" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-d-17"><rect x="748.5" y="290.28" width="245" height="21.8" rx="10.9" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="759" y="304.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Out of stock</text></g>
+</g>
+<g id="div-pc-21">
+<g id="div-p-19"><rect x="1010.5" y="144.5" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="1102.17" y="192.59" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="1010" y="255" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="1010" y="279.59" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-20"><rect x="1010.5" y="290.28" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="1021" y="304.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+<g id="div-pc-24">
+<g id="div-p-22"><rect x="224.5" y="329.08" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="316.17" y="377.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="224" y="439.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="224" y="464.17" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-23"><rect x="224.5" y="474.86" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="235" y="489.36" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+<g id="div-pc-27">
+<g id="div-p-25"><rect x="486.5" y="329.08" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="578.17" y="377.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="486" y="439.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="486" y="464.17" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-26"><rect x="486.5" y="474.86" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="497" y="489.36" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+<g id="div-pc-30">
+<g id="div-p-28"><rect x="748.5" y="329.08" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="840.17" y="377.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="748" y="439.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="748" y="464.17" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-29"><rect x="748.5" y="474.86" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="759" y="489.36" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+<g id="div-pc-33">
+<g id="div-p-31"><rect x="1010.5" y="329.08" width="245" height="89" fill="#eef0f2" stroke="#8f989e" stroke-width="1" stroke-dasharray="3 3"/><text x="1102.17" y="377.17" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#555555">Image URL</text></g>
+<text x="1010" y="439.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[Medicine name]</text><text x="1010" y="464.17" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[Category] · [Price]</text>
+<g id="span-k-ok-32"><rect x="1010.5" y="474.86" width="245" height="21.8" rx="10.9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="1021" y="489.36" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">In stock</text></g>
+</g>
+</g>
+<text x="224" y="527.16" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Pagination: ‹ 1 2 3 ›</text></g>
+</g>
+</g>
+</svg>

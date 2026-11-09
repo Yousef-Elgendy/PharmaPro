@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-03/04 Users</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-64">
+<g id="div-a-63">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Products</text><text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text>
+<g id="a-on-1"><rect x="12" y="394.55" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Users</text></g>
+</g>
+<g id="main-m-62">
+<g id="div-r-4"><text x="224" y="53.59" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-03/04 Users</text>
+<g id="button-b-3"><rect x="1026.38" y="24.5" width="94.08" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1073.41" y="51.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Add user</text></g>
+<text x="1132.95" y="50.91" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c2-61">
+<g id="section-c-45"><rect x="224.5" y="84.5" width="676.33" height="311.38" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="117" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Users</text>
+<g id="div-r-8">
+<g id="input-i-5"><rect x="241.5" y="132.5" width="487.33" height="40.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="158.3" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#757575">Search users</text></g>
+<g id="label-7">
+<g id="select-i-6"><rect x="741.83" y="132.8" width="142" height="40" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="752.33" y="158.3" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">All roles</text><polyline points="864.33,150.8 868.33,154.8 872.33,150.8" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+</g>
+<g id="table-t-44">
+<g id="tbody-43">
+<g id="tr-14">
+<g id="th-9"><line x1="241" y1="223.19" x2="359.45" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Name</text></g>
+<g id="th-10"><line x1="359.45" y1="223.19" x2="537.09" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="367.45" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Username / email</text></g>
+<g id="th-11"><line x1="537.09" y1="223.19" x2="609.72" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="545.09" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Role</text></g>
+<g id="th-12"><line x1="609.72" y1="223.19" x2="720.8" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="617.72" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Status</text></g>
+<g id="th-13"><line x1="720.8" y1="223.19" x2="884.33" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="728.8" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Actions</text></g>
+</g>
+<g id="tr-21">
+<g id="td-15"><line x1="241" y1="261.98" x2="359.45" y2="261.98" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Full name]</text></g>
+<g id="td-16"><line x1="359.45" y1="261.98" x2="537.09" y2="261.98" stroke="#d5d9dc" stroke-width="1"/><text x="367.45" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[user@mail]</text></g>
+<g id="td-17"><line x1="537.09" y1="261.98" x2="609.72" y2="261.98" stroke="#d5d9dc" stroke-width="1"/><text x="545.09" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Role]</text></g>
+<g id="td-19"><line x1="609.72" y1="261.98" x2="720.8" y2="261.98" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-18"><rect x="618.22" y="233.69" width="57.84" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="628.72" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">Active</text></g>
+</g>
+<g id="td-20"><line x1="720.8" y1="261.98" x2="884.33" y2="261.98" stroke="#d5d9dc" stroke-width="1"/><text x="728.8" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="757.7" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="765.69" y="248.28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Deactivate</text></g>
+</g>
+<g id="tr-28">
+<g id="td-22"><line x1="241" y1="300.78" x2="359.45" y2="300.78" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Full name]</text></g>
+<g id="td-23"><line x1="359.45" y1="300.78" x2="537.09" y2="300.78" stroke="#d5d9dc" stroke-width="1"/><text x="367.45" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[user@mail]</text></g>
+<g id="td-24"><line x1="537.09" y1="300.78" x2="609.72" y2="300.78" stroke="#d5d9dc" stroke-width="1"/><text x="545.09" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Role]</text></g>
+<g id="td-26"><line x1="609.72" y1="300.78" x2="720.8" y2="300.78" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-25"><rect x="618.22" y="272.48" width="66.84" height="20" rx="10" fill="none" stroke="#555555" stroke-width="1"/><text x="628.72" y="286.98" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#333333">Inactive</text></g>
+</g>
+<g id="td-27"><line x1="720.8" y1="300.78" x2="884.33" y2="300.78" stroke="#d5d9dc" stroke-width="1"/><text x="728.8" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="757.7" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="765.69" y="287.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Reactivate</text></g>
+</g>
+<g id="tr-35">
+<g id="td-29"><line x1="241" y1="339.58" x2="359.45" y2="339.58" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Full name]</text></g>
+<g id="td-30"><line x1="359.45" y1="339.58" x2="537.09" y2="339.58" stroke="#d5d9dc" stroke-width="1"/><text x="367.45" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[user@mail]</text></g>
+<g id="td-31"><line x1="537.09" y1="339.58" x2="609.72" y2="339.58" stroke="#d5d9dc" stroke-width="1"/><text x="545.09" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Role]</text></g>
+<g id="td-33"><line x1="609.72" y1="339.58" x2="720.8" y2="339.58" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-32"><rect x="618.22" y="311.28" width="57.84" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="628.72" y="325.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">Active</text></g>
+</g>
+<g id="td-34"><line x1="720.8" y1="339.58" x2="884.33" y2="339.58" stroke="#d5d9dc" stroke-width="1"/><text x="728.8" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="757.7" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="765.69" y="325.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Deactivate</text></g>
+</g>
+<g id="tr-42">
+<g id="td-36"><line x1="241" y1="378.38" x2="359.45" y2="378.38" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Full name]</text></g>
+<g id="td-37"><line x1="359.45" y1="378.38" x2="537.09" y2="378.38" stroke="#d5d9dc" stroke-width="1"/><text x="367.45" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[user@mail]</text></g>
+<g id="td-38"><line x1="537.09" y1="378.38" x2="609.72" y2="378.38" stroke="#d5d9dc" stroke-width="1"/><text x="545.09" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Role]</text></g>
+<g id="td-40"><line x1="609.72" y1="378.38" x2="720.8" y2="378.38" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-39"><rect x="618.22" y="350.08" width="66.84" height="20" rx="10" fill="none" stroke="#555555" stroke-width="1"/><text x="628.72" y="364.58" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#333333">Inactive</text></g>
+</g>
+<g id="td-41"><line x1="720.8" y1="378.38" x2="884.33" y2="378.38" stroke="#d5d9dc" stroke-width="1"/><text x="728.8" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="757.7" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="765.69" y="364.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Reactivate</text></g>
+</g>
+</g>
+</g>
+</g>
+<g id="section-c-60"><rect x="917.83" y="84.5" width="337.66" height="479.69" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="117" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Add / edit user</text>
+<g id="div-f-59">
+<g id="label-47"><text x="934.33" y="146" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Full name</text>
+<g id="input-i-46"><rect x="934.83" y="154.69" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-49"><text x="934.33" y="220.38" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Username</text>
+<g id="input-i-48"><rect x="934.83" y="229.06" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-51"><text x="934.33" y="294.75" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Email</text>
+<g id="input-i-50"><rect x="934.83" y="303.44" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-53"><text x="934.33" y="369.13" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Password</text>
+<g id="input-i-52"><rect x="934.83" y="377.81" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-55"><text x="934.33" y="443.5" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Role</text>
+<g id="select-i-54"><rect x="934.83" y="452.19" width="303.66" height="39" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="945.33" y="476.69" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#333333">Administrator</text><polyline points="1218.98,469.69 1222.98,473.69 1226.98,469.69" fill="none" stroke="#333333" stroke-width="1.5"/></g>
+</g>
+<g id="div-r-58">
+<g id="button-b-56"><rect x="934.83" y="504.19" width="66.16" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="967.91" y="531.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Save</text></g>
+<g id="button-o-57"><rect x="1013.98" y="504.19" width="80.03" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1054" y="531.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Cancel</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

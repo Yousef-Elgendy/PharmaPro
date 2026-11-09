@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-09/10 Suppliers</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-57">
+<g id="div-a-56">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Products</text>
+<g id="a-on-1"><rect x="12" y="144.98" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Suppliers</text></g>
+<text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Sales</text><text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-55">
+<g id="div-r-4"><text x="224" y="53.59" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-09/10 Suppliers</text>
+<g id="button-b-3"><rect x="1001.58" y="24.5" width="118.88" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1061.02" y="51.5" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Add supplier</text></g>
+<text x="1132.95" y="50.91" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c2-54">
+<g id="section-c-38"><rect x="224.5" y="84.5" width="676.33" height="310.56" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="117" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Suppliers</text>
+<g id="input-i-5"><rect x="241.5" y="132.5" width="642.33" height="40.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="252" y="158.3" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#757575">Search suppliers</text></g>
+<g id="table-t-37">
+<g id="tbody-36">
+<g id="tr-11">
+<g id="th-6"><line x1="241" y1="223.19" x2="390.19" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Company</text></g>
+<g id="th-7"><line x1="390.19" y1="223.19" x2="511.03" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="398.19" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Contact</text></g>
+<g id="th-8"><line x1="511.03" y1="223.19" x2="623.8" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="519.03" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Phone</text></g>
+<g id="th-9"><line x1="623.8" y1="223.19" x2="725.56" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="631.8" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Email</text></g>
+<g id="th-10"><line x1="725.56" y1="223.19" x2="884.33" y2="223.19" stroke="#d5d9dc" stroke-width="1"/><text x="733.56" y="209.59" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Actions</text></g>
+</g>
+<g id="tr-17">
+<g id="td-12"><line x1="241" y1="261.78" x2="390.19" y2="261.78" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Company]</text></g>
+<g id="td-13"><line x1="390.19" y1="261.78" x2="511.03" y2="261.78" stroke="#d5d9dc" stroke-width="1"/><text x="398.19" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Person]</text></g>
+<g id="td-14"><line x1="511.03" y1="261.78" x2="623.8" y2="261.78" stroke="#d5d9dc" stroke-width="1"/><text x="519.03" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[phone]</text></g>
+<g id="td-15"><line x1="623.8" y1="261.78" x2="725.56" y2="261.78" stroke="#d5d9dc" stroke-width="1"/><text x="631.8" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[email]</text></g>
+<g id="td-16"><line x1="725.56" y1="261.78" x2="884.33" y2="261.78" stroke="#d5d9dc" stroke-width="1"/><text x="733.56" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="762.47" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="770.45" y="248.19" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-23">
+<g id="td-18"><line x1="241" y1="300.38" x2="390.19" y2="300.38" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Company]</text></g>
+<g id="td-19"><line x1="390.19" y1="300.38" x2="511.03" y2="300.38" stroke="#d5d9dc" stroke-width="1"/><text x="398.19" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Person]</text></g>
+<g id="td-20"><line x1="511.03" y1="300.38" x2="623.8" y2="300.38" stroke="#d5d9dc" stroke-width="1"/><text x="519.03" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[phone]</text></g>
+<g id="td-21"><line x1="623.8" y1="300.38" x2="725.56" y2="300.38" stroke="#d5d9dc" stroke-width="1"/><text x="631.8" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[email]</text></g>
+<g id="td-22"><line x1="725.56" y1="300.38" x2="884.33" y2="300.38" stroke="#d5d9dc" stroke-width="1"/><text x="733.56" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="762.47" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="770.45" y="286.78" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-29">
+<g id="td-24"><line x1="241" y1="338.97" x2="390.19" y2="338.97" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Company]</text></g>
+<g id="td-25"><line x1="390.19" y1="338.97" x2="511.03" y2="338.97" stroke="#d5d9dc" stroke-width="1"/><text x="398.19" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Person]</text></g>
+<g id="td-26"><line x1="511.03" y1="338.97" x2="623.8" y2="338.97" stroke="#d5d9dc" stroke-width="1"/><text x="519.03" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[phone]</text></g>
+<g id="td-27"><line x1="623.8" y1="338.97" x2="725.56" y2="338.97" stroke="#d5d9dc" stroke-width="1"/><text x="631.8" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[email]</text></g>
+<g id="td-28"><line x1="725.56" y1="338.97" x2="884.33" y2="338.97" stroke="#d5d9dc" stroke-width="1"/><text x="733.56" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="762.47" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="770.45" y="325.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+<g id="tr-35">
+<g id="td-30"><line x1="241" y1="377.56" x2="390.19" y2="377.56" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Company]</text></g>
+<g id="td-31"><line x1="390.19" y1="377.56" x2="511.03" y2="377.56" stroke="#d5d9dc" stroke-width="1"/><text x="398.19" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Person]</text></g>
+<g id="td-32"><line x1="511.03" y1="377.56" x2="623.8" y2="377.56" stroke="#d5d9dc" stroke-width="1"/><text x="519.03" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[phone]</text></g>
+<g id="td-33"><line x1="623.8" y1="377.56" x2="725.56" y2="377.56" stroke="#d5d9dc" stroke-width="1"/><text x="631.8" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[email]</text></g>
+<g id="td-34"><line x1="725.56" y1="377.56" x2="884.33" y2="377.56" stroke="#d5d9dc" stroke-width="1"/><text x="733.56" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Edit</text><text x="762.47" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">·</text><text x="770.45" y="363.97" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#0000ee" text-decoration="underline">Delete</text></g>
+</g>
+</g>
+</g>
+</g>
+<g id="section-c-53"><rect x="917.83" y="84.5" width="337.66" height="479.88" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="117" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Add / edit supplier</text>
+<g id="div-f-52">
+<g id="label-40"><text x="934.33" y="146" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Company name</text>
+<g id="input-i-39"><rect x="934.83" y="154.69" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-42"><text x="934.33" y="220.38" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Contact person</text>
+<g id="input-i-41"><rect x="934.83" y="229.06" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-44"><text x="934.33" y="294.75" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Phone</text>
+<g id="input-i-43"><rect x="934.83" y="303.44" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-46"><text x="934.33" y="369.13" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Email</text>
+<g id="input-i-45"><rect x="934.83" y="377.81" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="label-48"><text x="934.33" y="443.5" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#444444">Address</text>
+<g id="input-i-47"><rect x="934.83" y="452.19" width="303.66" height="39.19" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/></g>
+</g>
+<g id="div-r-51">
+<g id="button-b-49"><rect x="934.83" y="504.38" width="66.16" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="967.91" y="531.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">Save</text></g>
+<g id="button-o-50"><rect x="1013.98" y="504.38" width="80.03" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1054" y="531.38" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Cancel</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

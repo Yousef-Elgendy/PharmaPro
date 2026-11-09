@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>SCR-16/17 Receipt and sales history</title>
+<rect id="page-background" width="1280" height="720" fill="#ffffff"/>
+<g id="body-77">
+<g id="div-a-76">
+<g id="nav-n-2"><rect x="0" y="0" width="200" height="720" fill="#eceff1"/><line x1="199.5" y1="0" x2="199.5" y2="720" stroke="#cfd4d8" stroke-width="1"/><text x="22" y="37" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="700" fill="#222222">PharmaCare</text><text x="22" y="85.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Dashboard</text><text x="22" y="127.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Products</text><text x="22" y="168.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Suppliers</text><text x="22" y="210.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Stock-in</text><text x="22" y="252.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Inventory</text><text x="22" y="293.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Movements</text><text x="22" y="335.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">POS</text>
+<g id="a-on-1"><rect x="12" y="352.95" width="175" height="37.59" rx="6" fill="#cfd8dc"/><text x="22" y="376.95" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#333333">Sales</text></g>
+<text x="22" y="418.55" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">Users</text></g>
+<g id="main-m-75">
+<g id="div-r-3"><text x="224" y="47" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#222222">SCR-16/17 Receipt and sales history</text><text x="1132.95" y="44.3" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">[User name] · [Role]</text></g>
+<g id="div-g-c2-74">
+<g id="section-c-45"><rect x="224.5" y="71.3" width="676.33" height="313.38" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="241" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Sales history</text>
+<g id="div-r-8">
+<g id="label-5"><text x="241" y="145.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">From</text>
+<g id="input-i-4"><rect x="275.06" y="119.3" width="147" height="42.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="285.56" y="146.09" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">mm/dd/yyyy</text></g>
+</g>
+<g id="label-7"><text x="434.56" y="145.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">To</text>
+<g id="input-i-6"><rect x="451.41" y="119.3" width="147" height="42.59" rx="5.5" fill="#ffffff" stroke="#8f989e" stroke-width="1"/><text x="461.91" y="146.09" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#333333">mm/dd/yyyy</text></g>
+</g>
+</g>
+<g id="table-t-44">
+<g id="tbody-43">
+<g id="tr-14">
+<g id="th-9"><line x1="241" y1="211.98" x2="389.55" y2="211.98" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="198.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Invoice</text></g>
+<g id="th-10"><line x1="389.55" y1="211.98" x2="488.91" y2="211.98" stroke="#d5d9dc" stroke-width="1"/><text x="397.55" y="198.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Date</text></g>
+<g id="th-11"><line x1="488.91" y1="211.98" x2="599.55" y2="211.98" stroke="#d5d9dc" stroke-width="1"/><text x="496.91" y="198.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Clerk</text></g>
+<g id="th-12"><line x1="599.55" y1="211.98" x2="700.89" y2="211.98" stroke="#d5d9dc" stroke-width="1"/><text x="607.55" y="198.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Total</text></g>
+<g id="th-13"><line x1="700.89" y1="211.98" x2="884.33" y2="211.98" stroke="#d5d9dc" stroke-width="1"/><text x="708.89" y="198.39" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Status</text></g>
+</g>
+<g id="tr-21">
+<g id="td-15"><line x1="241" y1="250.78" x2="389.55" y2="250.78" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="237.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[INV-001]</text></g>
+<g id="td-16"><line x1="389.55" y1="250.78" x2="488.91" y2="250.78" stroke="#d5d9dc" stroke-width="1"/><text x="397.55" y="237.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-17"><line x1="488.91" y1="250.78" x2="599.55" y2="250.78" stroke="#d5d9dc" stroke-width="1"/><text x="496.91" y="237.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Clerk]</text></g>
+<g id="td-18"><line x1="599.55" y1="250.78" x2="700.89" y2="250.78" stroke="#d5d9dc" stroke-width="1"/><text x="607.55" y="237.08" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-20"><line x1="700.89" y1="250.78" x2="884.33" y2="250.78" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-19"><rect x="709.39" y="222.48" width="84.39" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="719.89" y="236.98" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">Completed</text></g>
+</g>
+</g>
+<g id="tr-28">
+<g id="td-22"><line x1="241" y1="289.58" x2="389.55" y2="289.58" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="275.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[INV-002]</text></g>
+<g id="td-23"><line x1="389.55" y1="289.58" x2="488.91" y2="289.58" stroke="#d5d9dc" stroke-width="1"/><text x="397.55" y="275.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-24"><line x1="488.91" y1="289.58" x2="599.55" y2="289.58" stroke="#d5d9dc" stroke-width="1"/><text x="496.91" y="275.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Clerk]</text></g>
+<g id="td-25"><line x1="599.55" y1="289.58" x2="700.89" y2="289.58" stroke="#d5d9dc" stroke-width="1"/><text x="607.55" y="275.88" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-27"><line x1="700.89" y1="289.58" x2="884.33" y2="289.58" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-d-26"><rect x="709.39" y="261.28" width="61.56" height="20" rx="10" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="719.89" y="275.78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Voided</text></g>
+</g>
+</g>
+<g id="tr-35">
+<g id="td-29"><line x1="241" y1="328.38" x2="389.55" y2="328.38" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="314.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[INV-001]</text></g>
+<g id="td-30"><line x1="389.55" y1="328.38" x2="488.91" y2="328.38" stroke="#d5d9dc" stroke-width="1"/><text x="397.55" y="314.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-31"><line x1="488.91" y1="328.38" x2="599.55" y2="328.38" stroke="#d5d9dc" stroke-width="1"/><text x="496.91" y="314.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Clerk]</text></g>
+<g id="td-32"><line x1="599.55" y1="328.38" x2="700.89" y2="328.38" stroke="#d5d9dc" stroke-width="1"/><text x="607.55" y="314.67" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-34"><line x1="700.89" y1="328.38" x2="884.33" y2="328.38" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-ok-33"><rect x="709.39" y="300.08" width="84.39" height="20" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="719.89" y="314.58" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1b5e20">Completed</text></g>
+</g>
+</g>
+<g id="tr-42">
+<g id="td-36"><line x1="241" y1="367.17" x2="389.55" y2="367.17" stroke="#d5d9dc" stroke-width="1"/><text x="249" y="353.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[INV-002]</text></g>
+<g id="td-37"><line x1="389.55" y1="367.17" x2="488.91" y2="367.17" stroke="#d5d9dc" stroke-width="1"/><text x="397.55" y="353.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[date]</text></g>
+<g id="td-38"><line x1="488.91" y1="367.17" x2="599.55" y2="367.17" stroke="#d5d9dc" stroke-width="1"/><text x="496.91" y="353.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Clerk]</text></g>
+<g id="td-39"><line x1="599.55" y1="367.17" x2="700.89" y2="367.17" stroke="#d5d9dc" stroke-width="1"/><text x="607.55" y="353.47" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-41"><line x1="700.89" y1="367.17" x2="884.33" y2="367.17" stroke="#d5d9dc" stroke-width="1"/>
+<g id="span-k-d-40"><rect x="709.39" y="338.88" width="61.56" height="20" rx="10" fill="#fdeceb" stroke="#b3261e" stroke-width="1"/><text x="719.89" y="353.38" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8c1d18">Voided</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="section-c-73"><rect x="917.83" y="71.3" width="337.66" height="380.16" rx="7.5" fill="#fafbfc" stroke="#b8bfc4" stroke-width="1"/><text x="934.33" y="103.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#222222">Receipt</text><text x="934.33" y="132.8" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#555555">Invoice [INV-001] · [date] · [Clerk]</text>
+<g id="table-t-67">
+<g id="tbody-66">
+<g id="tr-50">
+<g id="th-46"><line x1="934.33" y1="174.58" x2="1044.77" y2="174.58" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="160.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Item</text></g>
+<g id="th-47"><line x1="1044.77" y1="174.58" x2="1096.14" y2="174.58" stroke="#d5d9dc" stroke-width="1"/><text x="1052.77" y="160.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Qty</text></g>
+<g id="th-48"><line x1="1096.14" y1="174.58" x2="1167.55" y2="174.58" stroke="#d5d9dc" stroke-width="1"/><text x="1104.14" y="160.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Price</text></g>
+<g id="th-49"><line x1="1167.55" y1="174.58" x2="1238.98" y2="174.58" stroke="#d5d9dc" stroke-width="1"/><text x="1175.55" y="160.98" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#555555">Total</text></g>
+</g>
+<g id="tr-55">
+<g id="td-51"><line x1="934.33" y1="213.17" x2="1044.77" y2="213.17" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="199.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Medicine]</text></g>
+<g id="td-52"><line x1="1044.77" y1="213.17" x2="1096.14" y2="213.17" stroke="#d5d9dc" stroke-width="1"/><text x="1052.77" y="199.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-53"><line x1="1096.14" y1="213.17" x2="1167.55" y2="213.17" stroke="#d5d9dc" stroke-width="1"/><text x="1104.14" y="199.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-54"><line x1="1167.55" y1="213.17" x2="1238.98" y2="213.17" stroke="#d5d9dc" stroke-width="1"/><text x="1175.55" y="199.58" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+</g>
+<g id="tr-60">
+<g id="td-56"><line x1="934.33" y1="251.77" x2="1044.77" y2="251.77" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="238.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Medicine]</text></g>
+<g id="td-57"><line x1="1044.77" y1="251.77" x2="1096.14" y2="251.77" stroke="#d5d9dc" stroke-width="1"/><text x="1052.77" y="238.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-58"><line x1="1096.14" y1="251.77" x2="1167.55" y2="251.77" stroke="#d5d9dc" stroke-width="1"/><text x="1104.14" y="238.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-59"><line x1="1167.55" y1="251.77" x2="1238.98" y2="251.77" stroke="#d5d9dc" stroke-width="1"/><text x="1175.55" y="238.17" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+</g>
+<g id="tr-65">
+<g id="td-61"><line x1="934.33" y1="290.36" x2="1044.77" y2="290.36" stroke="#d5d9dc" stroke-width="1"/><text x="942.33" y="276.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[Medicine]</text></g>
+<g id="td-62"><line x1="1044.77" y1="290.36" x2="1096.14" y2="290.36" stroke="#d5d9dc" stroke-width="1"/><text x="1052.77" y="276.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[n]</text></g>
+<g id="td-63"><line x1="1096.14" y1="290.36" x2="1167.55" y2="290.36" stroke="#d5d9dc" stroke-width="1"/><text x="1104.14" y="276.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+<g id="td-64"><line x1="1167.55" y1="290.36" x2="1238.98" y2="290.36" stroke="#d5d9dc" stroke-width="1"/><text x="1175.55" y="276.77" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#222222">[0.00]</text></g>
+</g>
+</g>
+</g>
+<g id="div-r-68"><text x="934.33" y="318.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">Total</text><text x="1196.25" y="318.36" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#222222">[0.00]</text></g>
+<g id="div-r-72">
+<g id="button-o-69"><rect x="934.83" y="335.45" width="64.91" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="967.28" y="362.45" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Print</text></g>
+<g id="button-b-70"><rect x="1012.73" y="335.45" width="94.66" height="43" rx="5.5" fill="#37474f" stroke="#37474f" stroke-width="1"/><text x="1060.06" y="362.45" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">New sale</text></g>
+<g id="button-o-71"><rect x="934.83" y="391.45" width="152.03" height="43" rx="5.5" fill="#ffffff" stroke="#37474f" stroke-width="1"/><text x="1010.84" y="418.45" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#37474f">Void sale (Admin)</text></g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
