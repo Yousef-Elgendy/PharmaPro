@@ -1,0 +1,31 @@
+---
+title: SD-05 Sales - Confirm Sale (POS with FEFO)
+---
+sequenceDiagram
+    autonumber
+    actor C as Sales Clerk
+    participant F as Frontend (POS)
+    participant A as Sales API
+    participant S as SalesService
+    participant D as SQL Server
+    C->>F: Confirm cart
+    F->>A: POST /api/sales (items, JWT)
+    A->>S: CreateSale(dto, clerkId)
+    S->>S: Validate items, qty > 0, price > 0
+    S->>D: BEGIN TRANSACTION, load non-expired batches (FEFO)
+    D-->>S: Batches ordered by expiry date
+    alt Stock insufficient
+        S->>D: ROLLBACK
+        S-->>A: Insufficient stock error
+        A-->>F: 400 "Only X units available"
+        F-->>C: Show error
+    else Enough stock
+        S->>S: Allocate earliest-expiring batches first
+        S->>D: Insert Sale, SaleItems (price snapshot), SaleItemBatches
+        S->>D: Update batch quantities + insert StockMovement (-qty)
+        S->>D: COMMIT
+        S-->>A: Invoice
+        A-->>F: 201 Created + invoice
+        F-->>C: Show receipt
+    end
+    Note over S,D: Sale and stock update are one atomic transaction

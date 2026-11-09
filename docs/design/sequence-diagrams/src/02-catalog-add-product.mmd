@@ -1,0 +1,29 @@
+---
+title: SD-02 Catalog - Add Product (unique SKU)
+---
+sequenceDiagram
+    autonumber
+    actor AD as Administrator
+    participant F as Frontend
+    participant A as Products API
+    participant S as ProductService
+    participant D as SQL Server
+    AD->>F: Fill product form (name, category, SKU, price, image URL)
+    F->>F: Validate required fields and price > 0
+    F->>A: POST /api/products (JWT)
+    A->>A: Authorize role = Administrator
+    A->>S: CreateProduct(dto)
+    S->>D: Check category exists and SKU / barcode unused
+    D-->>S: Check result
+    alt Duplicate SKU or barcode, or invalid data
+        S-->>A: Business error
+        A-->>F: 409 / 400 "SKU already exists"
+        F-->>AD: Show inline error
+    else Valid
+        S->>D: Insert Product
+        D-->>S: New product Id
+        S-->>A: Product
+        A-->>F: 201 Created
+        F-->>AD: Show success and product in list
+    end
+    Note over S,D: The unique index on Sku also blocks concurrent duplicates

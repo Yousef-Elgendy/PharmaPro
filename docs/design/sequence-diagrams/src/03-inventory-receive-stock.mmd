@@ -1,0 +1,29 @@
+---
+title: SD-03 Inventory - Receive Stock (Stock-in with Batches)
+---
+sequenceDiagram
+    autonumber
+    actor M as Stock Manager
+    participant F as Frontend
+    participant A as StockIn API
+    participant S as InventoryService
+    participant D as SQL Server
+    M->>F: Choose supplier + enter batch lines
+    F->>A: POST /api/stock-in (JWT)
+    A->>A: Authorize role = Stock Manager
+    A->>S: ReceiveStock(dto, userId)
+    S->>S: Validate expiry in future, qty > 0, unique batch number
+    alt Validation fails
+        S-->>A: Business error
+        A-->>F: 400 + message
+        F-->>M: Show errors
+    else Valid
+        S->>D: BEGIN TRANSACTION
+        S->>D: Insert StockIn + Batches
+        S->>D: Insert StockMovement (+qty) per batch
+        S->>D: COMMIT
+        S-->>A: StockIn summary
+        A-->>F: 201 Created
+        F-->>M: Show confirmation summary
+    end
+    Note over S,D: All inserts succeed together or nothing is saved

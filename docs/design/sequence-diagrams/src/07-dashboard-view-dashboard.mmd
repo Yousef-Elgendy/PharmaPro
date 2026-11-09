@@ -1,0 +1,24 @@
+---
+title: SD-07 Dashboard - View Dashboard
+---
+sequenceDiagram
+    autonumber
+    actor U as User (any role)
+    participant F as Frontend
+    participant A as Dashboard API
+    participant S as DashboardService
+    participant D as SQL Server
+    U->>F: Open dashboard
+    F->>A: GET /api/dashboard (JWT)
+    A->>A: Authorize and read role from token
+    A->>S: GetDashboard(role)
+    S->>D: Count products, categories, suppliers
+    S->>D: Sum completed sales (today, month, all time)
+    S->>D: Products with stock <= reorder level
+    S->>D: Batches expired or expiring within 30 days
+    D-->>S: Query results
+    S->>S: Keep only the widgets allowed for the role
+    S-->>A: Dashboard DTO
+    A-->>F: 200 OK + JSON
+    F-->>U: Render stat cards, low-stock and expiry lists
+    Note over S,D: Voided sales are excluded from sales totals

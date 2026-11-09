@@ -1,0 +1,30 @@
+---
+title: SD-04 Inventory - Adjust Stock
+---
+sequenceDiagram
+    autonumber
+    actor M as Stock Manager
+    participant F as Frontend
+    participant A as Inventory API
+    participant S as InventoryService
+    participant D as SQL Server
+    M->>F: Select batch, quantity change, reason
+    F->>A: POST /api/stock-adjustments (JWT)
+    A->>A: Authorize role = Stock Manager
+    A->>S: AdjustStock(dto, userId)
+    S->>D: BEGIN TRANSACTION, load batch
+    D-->>S: Batch (QuantityRemaining)
+    alt Reason missing or stock would go below 0
+        S->>D: ROLLBACK
+        S-->>A: Business error
+        A-->>F: 400 + message
+        F-->>M: Show error
+    else Valid
+        S->>D: Update Batch.QuantityRemaining
+        S->>D: Insert StockMovement (Adjustment, reason)
+        S->>D: COMMIT
+        S-->>A: Updated batch
+        A-->>F: 200 OK
+        F-->>M: Show updated stock
+    end
+    Note over S,D: Adjustment needs a reason and is logged in StockMovement

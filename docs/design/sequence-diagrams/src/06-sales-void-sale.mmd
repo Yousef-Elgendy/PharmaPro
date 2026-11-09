@@ -1,0 +1,31 @@
+---
+title: SD-06 Sales - Void Sale
+---
+sequenceDiagram
+    autonumber
+    actor AD as Administrator
+    participant F as Frontend
+    participant A as Sales API
+    participant S as SalesService
+    participant D as SQL Server
+    AD->>F: Select sale + enter void reason
+    F->>A: POST /api/sales/{id}/void (JWT)
+    A->>A: Authorize role = Administrator
+    A->>S: VoidSale(id, reason, adminId)
+    S->>D: BEGIN TRANSACTION, load Sale + SaleItemBatches
+    D-->>S: Sale data
+    alt Already voided or reason missing
+        S->>D: ROLLBACK
+        S-->>A: Business error
+        A-->>F: 400 + message
+        F-->>AD: Show error
+    else Valid
+        S->>D: Set Status = Voided, VoidedAt, VoidedByUserId, VoidReason
+        S->>D: Restore QuantityRemaining on the original batches
+        S->>D: Insert reversing StockMovements (Void, +qty)
+        S->>D: COMMIT
+        S-->>A: Voided sale
+        A-->>F: 200 OK
+        F-->>AD: Show voided status
+    end
+    Note over S,D: Restored stock in an expired batch stays excluded from available stock

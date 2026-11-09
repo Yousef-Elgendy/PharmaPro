@@ -1,0 +1,26 @@
+---
+title: SD-01 Authentication - Login
+---
+sequenceDiagram
+    autonumber
+    actor U as User
+    participant F as Frontend
+    participant A as Auth API
+    participant S as AuthService
+    participant D as SQL Server
+    U->>F: Enter username + password
+    F->>A: POST /api/auth/login
+    A->>S: Login(username, password)
+    S->>D: Find user + role
+    D-->>S: User record
+    S->>S: Check IsActive + verify password hash
+    alt Invalid credentials or inactive user
+        S-->>A: Failure
+        A-->>F: 401 Unauthorized
+        F-->>U: Show "Invalid username or password"
+    else Valid
+        S-->>A: JWT (userId, role)
+        A-->>F: 200 OK + token
+        F-->>U: Redirect to dashboard
+    end
+    Note over F,A: Token is sent as Bearer header on every later request
