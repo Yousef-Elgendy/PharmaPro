@@ -218,8 +218,12 @@ WHERE Barcode IS NOT NULL;
 - An initial positive `StockIn` movement must be recorded when a batch is received.
 - For each batch, the following invariant must hold:
 
-  `QuantityRemaining = QuantityReceived + SUM(QuantityChange)`
+  `QuantityRemaining = SUM(QuantityChange)`
 
+  where the sum includes **all StockMovement records associated with that batch**, including the initial positive `StockIn` movement.
+
+- `QuantityReceived` stores the original quantity received for the batch and remains immutable. It is not added again to the movement sum because the initial `StockIn` movement already represents that received quantity.
+- Every operation that changes stock must insert its corresponding `StockMovement` record and update `Batch.QuantityRemaining` within the same database transaction, ensuring that both remain consistent.
 - Movement quantities are signed:
   - Stock-in: positive.
   - Sale: negative.
